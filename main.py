@@ -83,7 +83,7 @@ if args.model[0:3] =="wrn":
     parts = args.model.split('-')
     depth = int(parts[1])
     widen = int(parts[2])
-    model = WideResNet(
+    target_model = WideResNet(
                 depth=depth, num_classes=num_classes, widen_factor=widen)
 elif args.model == "preactresnet18":
     target_model = PreActResNet18()
