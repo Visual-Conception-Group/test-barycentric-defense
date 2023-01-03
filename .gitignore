@@ -1,0 +1,16 @@
+/__pycache__
+/.ipynb_checkpoints
+/*.pth
+/*.pt
+/*.ipynb
+/data
+/*.out
+/tiny_imagenet
+/tiny-imagenet-200
+/las_model
+/trades_model
+/blas_model
+/test_bary
+/*.log
+/Untitled*
+/*.ckpt
